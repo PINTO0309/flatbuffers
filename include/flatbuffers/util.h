@@ -190,7 +190,7 @@ inline std::string NumToString<double>(double t) {
 }
 template <>
 inline std::string NumToString<float>(float t) {
-  return FloatToString(t, 6);
+  return FloatToString(t, 17);
 }
 
 // Convert an integer value to a hexadecimal string.
